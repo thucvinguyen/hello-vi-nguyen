@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>My Porto</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="mediaqueries.css"/>
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Vi Nguyen</div>
+      <div class="tab-bar">
+        <ul class="nav-link">
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#experience">Experience</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+        <div class="logo">Vi Nguyen</div>
+        
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div class="menu-links">
+                  <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                  <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                  <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                </div>
+                </nav>
+
+                <section id="profile">
+                    <div class="section__pic-container">
+                      <img src="https://scontent.fhan4-1.fna.fbcdn.net/v/t39.30808-6/272077610_1849270081924447_1236459026539053247_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=9yWgBb59lEMAX_kaDDs&_nc_ht=scontent.fhan4-1.fna&oh=00_AfCRgnWbPXBk9fNoiODNQbRoFReCAzKSqbK-W8JaY34RzA&oe=6593945E" alt="Vi profile picture">
+                    </div>
+                    <div class="section__text">
+                      <p class="section__text__p1">Hello, I'm</p>
+                      <h1 class="title">Vi Nguyen</h1>
+                    
+                      <div class="btn-container">
+                          <a href="https://www.canva.com/design/DAFb3Z5q1EE/reEoU8FspT0rtaNnHlLcDA/view" target="_blank">
+                              <button class="btn btn-color-2">Download CV</button>
+                          </a>
+                        <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                          Contact Info
+                        </button>
+                      </div>
+                      <div id="socials-container">
+                        <a class ="nav-icon" href="https://www.linkedin.com/in/thucvinguyen/">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="mercado-match" width="24" height="24" focusable="false">
+                            <path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"></path>
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                  </section>
+
+                  <section id="about">
+                      <p class="section__text__p1">Get To Know More</p>
+                      <h1 class="title">About Me</h1>
+                      <div class="section-container">
+                        <div class="section__pic-container">
+                          <img src="https://scontent.fsgn8-4.fna.fbcdn.net/v/t1.6435-9/128006835_1541830169335108_7551564890544553273_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=7a1959&_nc_ohc=3xZX45wBSfsAX-JAsFb&_nc_ht=scontent.fsgn8-4.fna&oh=00_AfBwnsagUG6oWCH6RaxFG1fc0mx36belY-d-4rcHqmmy3w&oe=657C5867" alt="Profile picture" class="about-pic">
+                        </div>
+                        <div class="about-details-container">
+                          <div class="about-containers">
+                            <div class="details-container">
+                              <img src="https://tangerine-hummingbird-1479b6.netlify.app/assets/experience.png" alt="Experience icon" class="icon">
+                              <h3>Experience</h3>
+                              <p>Mar 2022 - Sep 2023<br>Business Controller Assistant</p>
+                              <p>Nov 2021 - Feb 2022<br>Sales Assistant</p>
+                              <p>Oct 2018 - Dec 2019<br>Student Ambassador Team</p>
+                              
+                            </div>
+                            <div class="details-container">
+                              <img src="https://tangerine-hummingbird-1479b6.netlify.app/assets/education.png" alt="Education icon" class="icon">
+                              <h3>Education</h3>
+                              <p>Bachelor of International Business</p>
+                            </div>
+                          </div>
+                          <div class="text-container">
+                            <p>
+                                I am a positive, driven and professional person who can work both effectively in a team and also on my own.
+                                I major in International Business, Over the years, I have developed many brain-storming and problem-solving skills. 
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    
+                    </section>
+
+                    <section id="experience">
+                      <p class="section__text__p1">Explore My</p>
+                      <h1 class="title">Experience</h1>
+                      <div class="experience-details-container">
+                        <div class="experience-details">
+                          <h2 class="experience-sub-title">Business Controller Assistant</h2>
+                          <div class="article-container">
+                            <article>
+                              <img src="https://tangerine-hummingbird-1479b6.netlify.app/assets/checkmark.png" alt="Experience icon" class="icon"></img>
+                              <div>
+                                <p><h3>Analyze and interpret data to report to the management.</h3></br>
+                                <h3>Identify the issues that impact the organization’s performance, and communicate with sales department to have the solutions.</h3></br>
+                                <h3>Assist to manage budgets for costs and delivery regularly so that timely adjustments can be made to achieve the forecast.</h3></br>
+                                <h3>Forecast company revenue, profit margins to identify areas of improvement or cut down.</h3></br>
+                                <h3>Prepares performance report for sales team to achieve sales target weekly.</h3></p>
+                              </div>
+                            </article>                             
+                          </div>
+                        </div>
+                        <div class="experience-details">
+                          <h2 class="experience-sub-title">Sales Assistant Intern</h2>
+                          <div class="article-container">
+                            <article>
+                              <img src="https://tangerine-hummingbird-1479b6.netlify.app/assets/checkmark.png" alt="Experience icon" class="icon"></img>
+                              <div>
+                                <p><h3>Assign territories and quotas to company sales staff.</h3></br>
+                                <h3>Maintain supplies of sales presentation materials, including slides and brochures. Track the quotas and goals of each member of the sales team.</h3></br>
+                                <h3>Input order information into the company database.</h3></br>
+                                <h3>Address to client questions or complaints regarding their account or sales products.</h3></br>
+                                <h3>Work with staff members from other departments such as trade marketing, research/design and financing to optimize sales.<h3></p>
+                              </div>
+                            </article>                             
+                          </div>
+                        </div>
+                        <div class="experience-details">
+                          <h2 class="experience-sub-title">Student Ambassador Team</h2>
+                          <div class="article-container">
+                            <article>
+                              <img src="https://tangerine-hummingbird-1479b6.netlify.app/assets/checkmark.png" alt="Experience icon" class="icon"></img>
+                              <div>
+                                <p><h3>Collaborate with RMIT staffs to support and organize various campus activities for high school students to experience the university environment, including Experience Day, Information Day, High School Tour, etc.</h3></br>
+                                <h3>Engage with inquirers, provide useful answer towards any questions of the guests around joining institution, and guide them in their journey.</h3></p>
+                              </div>
+                            </article>                             
+                          </div>
+                        </div>
+                      </div>
+                    </section>
+
+                      <section id="contact">
+                        <p class="section__text__p1">Get In Touch</p>
+                        <h1 class="title">Contact Me</h1>
+                        
+
+                      <div class="contact-info-upper-container">
+                        <div class="contact-info-container">
+                          <img src="	https://tangerine-hummingbird-1479b6.netlify.app/assets/email.png" alt="Email icon" class="icon contact-icon email-icon">
+                          <p><a href="mailto:thucvinguyenl@gmail.com">thucvinguyen@gmail.com</a></p>
+                        </div>
+                        <div class="contact-info-container">
+                          <img src="		https://tangerine-hummingbird-1479b6.netlify.app/assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon">
+                          <p><a href="https://www.linkedin.com/in/thucvinguyen/">LinkedIn</a></p>
+                        </div>
+                      </div>
+                    </section>
+
+                  
+                      <footer>
+                        <nav>
+                          <div class="nav-links-container">
+                            <ul class="nav-link">
+                              <li><a href="#about">About</a></li>
+                              <li><a href="#experience">Experience</a></li>                            
+                              <li><a href="#contact">Contact</a></li>
+                            </ul>
+                          </div>
+                        </nav>
+                        <p>Copyright © 2023 Vi Nguyen. All Rights Reserved.</p>
+                      </footer>
+
+  </body>
+</html>
